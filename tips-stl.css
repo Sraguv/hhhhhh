@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-image: linear-gradient(to bottom, rgb(36, 0, 60), rgb(255, 221, 0));
+    width: 500px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: white;
+    font-family: Roboto Condensed;
+}
+
+h1 {
+    color: #FFDC40;
+    font-weight: 700;
+    font-size: 52px;
+    height: 94px;
+    width: 380px;
+    margin-bottom: 50px;
+}
+
+.result {
+    display: block;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    box-sizing: border-box;
+    padding: 19px 33px;
+    margin-right: 20px;
+}
+
+.reset {
+    display: block;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    box-sizing: border-box;
+    padding: 19px 33px;
+}
+
+.reset:hover {background-color: #919191ca;}
+
+.result:hover {background-color: #919191ca;}
+
+.reset:active {
+    background-color: #b02614;
+    transition: background-color 0.01s ease-in-out;
+}
+
+.result:active {
+    background-color: #FFDC40;
+    transition: background-color 0.01s ease-in-out;
+}
+
+.buttons {display: flex;}
+
+.calculator p {
+    font-size: 20px;
+    width: 380px;
+    height: 23px;
+    font-weight: 400;
+}
+
+.calculator {
+    font-size: 22px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 380px;
+    height: 50px;
+    border: 2px solid #A4CEF4;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+select {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 380px;
+    height: 50px;
+    border: 2px solid #A4CEF4;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button {
+    box-sizing: border-box;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.argument2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #B6B6B6;
+}
+
+.argument1 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #360160;
+}
+
+.tip {
+    width: 147px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+}
+
+.sum {
+    width: 147px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+}

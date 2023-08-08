@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip's Calculator</title>
+    <link rel="stylesheet" type="text/css" href="/tips-stl.css">
+    &copy; Artemij MURAVJOV
+</head>
+<body>
+    <div class="calculator">
+        <h1>Калькулятор чаевых</h1>
+        <p>Сумма по счету</p>
+        <input class="amount-input" type = "number" placeholder = "Введите сумму">
+        <p>Качество обслуживания</p>
+            <select class="tips">
+                <option value="0%">Плохое (0%)</option>
+                <option value="5%">Нормальное (5%)</option>
+                <option value="10%">Хорошее (10%)</option>
+                <option value="15%">Отличное (15%)</option>
+            </select>
+        <p>Количество человек</p>
+        <input class="people-input" type = "number" placeholder = "Введите число">
+    <div class="buttons">
+        <button class="result">Посчитать</button>
+        <button class="reset">Сбросить</button>
+    </div>
+    <br><br>
+    <div>
+        <table class="output">
+            <tr>
+                <td class="argument1">Чаевые:</td>
+                <td class="tip"></td>
+                <td class="argument2"></td>
+            </tr>
+            <tr>
+                <td class="argument1">Всего:</td>
+                <td class="sum"></td>
+                <td class="argument2"></td>
+            </tr>
+        </table>
+    </div>     
+    </div>
+    <script src="/javascr.js"></script>
+</body>
+</html>
